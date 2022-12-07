@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+
+
+    <title>Beru</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img class="navbar-brand" src="Beru logo.png" button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse">
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+
+                            <a class="nav-link active" aria-current="page" href="#Rolês Disponíveis">Rolês
+                                Disponíveis</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#Rolês Agendados">Rolês Agendados</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#Sobre nós">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="submit" href="#Sign In" onclick="voltarlogin(); return false">Sign In </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar rolê" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+
+                        <div class="content">
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container main">
+            <h2 class="Rolês" id="Rolês">Rolês</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <section class="onesec">
+                                    <div class="Foto">
+                                        <div class="afoto">
+                                            <img
+                                                src="https://bhdetalhes.com/wp-content/uploads/2021/05/layback-park-1.jpg">
+                                        </div>
+                                        <div class="coisas">
+                                            <div>
+                                                <h2>Layback Park e brejinha!!</h2>
+                                                <p> <b> Prévia do local:</b> O Layback Park Belo Horizonte é um espaço
+                                                    aberto e inclusivo, que celebra o espírito e a cultura do skate e do
+                                                    surf. O ambiente proporciona diversas experiências e promove o
+                                                    estilo de vida da marca. No local é possível beber com os amigos,
+                                                    andar de skate na pista, ter aulas de skate, comer bem na Vila
+                                                    Gastronômica, fazer tatuagem, assistir a shows de música ao vivo,
+                                                    fazer compras, conferir arte urbana e passear com a família ou com o
+                                                    animal de estimação.</p>
+                                                <p><b> Prévia do rolê:</b> Colem neste rolê!!! Procuramos quem gosta de
+                                                    cerveja e skate! Vai eu e uns amigos, totalizando 5.</p>
+                                            </div>
+                                            <div class="mandantes">
+                                                <p> <b>Publicante do rolê:</b> João Campos </p>
+                                                <p> <b>Dono(s) do rolê:</b> Layback Park </p>
+                                                <p> <b>Data:</b> 20/10/2022 </p>
+                                            </div>
+                                            <div class="avaliacao">
+                                                <p> <b>Avaliação com base nos rolês anteriores do publicante:</b> </p>
+                                                ★★★★★
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="carousel-item">
+                                <section class="onesec">
+                                    <div class="Foto">
+                                        <div class="afoto">
+                                            <img
+                                                src="https://bhaz.com.br/wp-content/uploads/2017/07/major-5-1024x686.jpg">
+                                        </div>
+                                        <div class="coisas">
+                                            <div>
+                                                <h2>Quero a várzea na Major</h2>
+                                                <P> <b>Prévia do local:</b> A major lock é conhecida não só por ser um
+                                                    dos locais mais antigos do Brasil, mas também por ser reduto de
+                                                    artistas e bandas que querem se divertir na cidade. Com seus
+                                                    diversos ambientes, a casa abriga uma decoração recebida pelos
+                                                    amigos e parceiros. Parada obrigatória em Belo Horizonte </P>
+                                                <p> <b>Prévia do rolê:</b> DJ Scar na Major, to publicando isso pra
+                                                    geral colar nesse trem, quanto mais, melhor</p>
+                                            </div>
+                                            <div class="mandantes">
+                                                <p> <b>Publicante do rolê:</b> Wallison Tavares </p>
+                                                <p> <b>Dono(s) do rolê: </b> Major Lock </p>
+                                                <p> <b>Data:</b> 20/10/2022 </p>
+                                            </div>
+                                            <div class="avaliacao">
+                                                <p> <b>Avaliação com base nos rolês anteriores do publicante:</b> </p>
+                                                ★★★★★
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="carousel-item">
+                                <section class="onesec">
+                                    <div class="foto">
+                                        <div class="afoto">
+                                            <img
+                                                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/bb/28/92/photo0jpg.jpg?w=1200&h=-1&s=1">
+                                        </div>
+                                        <div class="coisas">
+                                            <div>
+                                                <h2>Bó chalezin?</h2>
+                                                <p> <b>Prévia do local: </b> Um dos personagens mais interessantes e
+                                                    conflituosos da Marvel chega à tela grande com o vencedor do Oscar
+                                                    Jared Leto se transformando no enigmático anti-herói Michael
+                                                    Morbius. Gravemente adoecido com um raro distúrbio sanguíneo e
+                                                    determinado a salvar outros que sofrem do mesmo destino, o Dr.
+                                                    Morbius arrisca tudo numa aposta desesperada. E embora a princípio
+                                                    tudo pareça um sucesso absoluto, surge uma escuridão que se
+                                                    desencadeia dentro dele. O bem superará o mal - ou Morbius sucumbirá
+                                                    aos seus novos e misteriosos desejos?</p>
+                                                <P> <b>Prévia do rolê: </b> Simplesmente chalezin, colem piazada. </P>
+                                            </div>
+                                            <div class="mandantes">
+                                                <p> <b>Publicante do rolê:</b> Arthur Ribeiro </p>
+                                                <p> <b>Dono(s) do rolê: </b> Chalezin </p>
+                                                <p> <b>Data de lançamento:</b> 20/10/2022 </p>
+                                            </div>
+
+                                            <div class="avaliacao">
+                                                <p> <b>Avaliação com base nos rolês anteriores do publicante:</b> </p>
+                                                ★★★★★
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="destaques" id="destaques">Rolês em destaque</h2>
+                </div>
+                <div class="col-6">
+                    <div class="dropdown" style="text-align: right;">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categoria: TODOS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">tema</a></li>
+                            <li><a class="dropdown-item" href="#">tema</a></li>
+                            <li><a class="dropdown-item" href="#">tema</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" widht="100%">
+                        <img src="Capturar.JPG" class="card-img-top" alt="role1">
+                        <div class="card-body">
+                            <p class="card-text"><b>Casa do Enzin</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" widht="100%">
+                        <img src="Capturar 2.JPG" class="card-img-top" alt="role1">
+                        <div class="card-body">
+                            <p class="card-text"><b>Casa do Guerra </b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" widht="100%">
+                        <img src="Capturar 3.JPG" class="card-img-top" alt="role1">
+                        <div class="card-body">
+                            <p class="card-text"><b>Casa do Amaral</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" widht="100%">
+                        <img src="Capturar 4.JPG" class="card-img-top" alt="filme1">
+                        <div class="card-body">
+                            <p class="card-text"><b>Casa do Gutin</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: right; margin-top: 10px;">
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais rolês</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <h2 class="Futuros Rolês" id="Futuros Rolês">Futuros Rolês</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-11 col-md-4">
+                                <img height="100%" width="100%"
+                                    src="https://scontent.fplu9-1.fna.fbcdn.net/v/t39.30808-6/312222157_679740910177287_3804240569750248459_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFO3G7ts0R9HdnsrRPWTKui7TeIFiuQYi7tN4gWK5BiLtyvMz9iYpFEmKy0PnGkYxBVZ5pkG6LRHxZYu-5VIBsx&_nc_ohc=Jm_r9aCJBGIAX9nvChv&tn=oZ7cdpuPJTJNZSVZ&_nc_ht=scontent.fplu9-1.fna&oh=00_AfBs0FkAZREOg7pFG7Vlq0y0Rp6pakH5WsaJYkP5vwMt7g&oe=639592BF>
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5> Show do Japa Melhor Dia Festival
+                                </h5>
+                                <p>Data prevista: 22/10/2022
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 10px;">
+                        <div class="row">
+                            <div class="ol-xs-12 col-11 col-md-4">
+                                <img height="100%" width="100%"
+                                    src="http://portalbelohorizonte.com.br/sites/default/files/styles/normal_size/public/arquivos/comer-e-beber/2022-01/beer1.jpg?itok=s39NTJSD"
+                                    alt="imagem1">
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5> Show da banda Mango Juice no Beer Stock
+                                </h5>
+                                <p>Data Prevista: EM BREVE
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 10px; margin-bottom: 15px;">
+                        <div class="row">
+                            <div class="ol-xs-12 col-11 col-md-4">
+                                <img height="100%" width="100%"
+                                    src="https://s2.glbimg.com/OENduhwN687uj74vk_RJSr9j44E=/0x0:2000x2500/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/v/S/duMSfhTMiOrEABBz7jhQ/lollapalooza-2023.jfif"
+                                    alt="imagem1">
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5>Lollapalooza 2023
+                                </h5>
+                                <p>Data prevista: 24/03/2023
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="text-center p-3" style="background-color: #000000f3;">
+            <p class="footertext">© 2022 Copyright: Desenvolvimento de Interfaces Web -
+                <b>Luca Marigo Dias</b>
+            </p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
